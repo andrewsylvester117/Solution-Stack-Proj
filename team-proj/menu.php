@@ -4,7 +4,7 @@
          <?php
             $menu_items = ["Home"=>"home", 
                   "About"=>"about",
-                  "Experience"=>"experience"];
+                  "Contact"=>"contact"];
 
                foreach($menu_items as $key => $value){
                   echo "<li><a href=".$menu_items[$key]."><h2>".$key."</h2></a></li>";
