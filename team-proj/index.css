@@ -1,0 +1,89 @@
+body{
+    background-color: black;
+    color:greenyellow;
+    font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace;
+}
+
+header{
+    border-color: greenyellow;
+    position: relative;
+    margin-top: 100px;    
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+
+.main_nav_container{
+  text-align: center;
+}
+
+.main_nav{
+    width: auto;
+    margin: auto;
+    background-color: rgb(37, 37, 37);
+    border-radius: 10px;
+}
+
+.main_nav ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+    border: 3px;
+    border-radius: 10px;
+    border-color:yellowgreen;
+  }
+
+.sub_nav{
+  width: auto;
+  margin: auto;
+  text-align: center;
+  background-color: black;
+}
+
+.sub_nav ul{
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  display: inline-block;
+  text-align: center;
+  border: 3px;
+  border-radius: 10px;
+}
+  
+  li {
+    float: left;
+    margin: auto;
+    padding: 0px 45px 0px 45px;
+  }
+  
+  li a {
+    display: block;
+    color:yellowgreen;
+    text-align: center;
+  }
+  
+  li:hover {
+    background-color: #111;
+  }
+
+  div{
+    margin: 5% 10% 0% 10%;
+    border-radius:15px;
+  }
+
+  div p{
+    margin: 2%;
+    padding: 15px;
+  }
+
+  div h3{
+    padding: 15px;
+    text-align: center;
+    text-decoration: underline;
+  }
+
