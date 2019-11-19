@@ -10,26 +10,20 @@ include 'dbconfig.php';
 $username = $_POST["username"];
 $password = $_POST["password"];
 
-echo "Username: " . $username;
-echo "\nPassword: " . $password;
-
 $query = "SELECT * FROM login
         WHERE username  = '".$mysqli->real_escape_string($username)."'
         AND password = '".$mysqli->real_escape_string($password)."';";
 
-echo "\n\n".$query;
 
 $results = $mysqli->query( $query );
-$num_results = count($results);
+$rowcount=mysqli_num_rows($results);
 
-echo "\nCount: ".$num_results;
-
-while( $row = $results->fetch_assoc() ){
-    extract($row);
-    echo "\n".$username;
-    echo "\n".$password;
+if($rowcount > 0){
+    echo "TRUE";
+}
+else{
+    echo "FALSE";
 }
 
-echo "\nDone";
-
+$mysqli->close();
 ?>
