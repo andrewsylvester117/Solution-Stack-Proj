@@ -60,9 +60,7 @@ include "head.php";
         // Send the request
         $result = file_get_contents($url, false, $context);
 
-        echo $_SESSION['login_user'];
         if ($result == 'TRUE') {
-
             // Start the session for the user.
             session_start();
             $_SESSION['login_user'] = $username;
