@@ -11,6 +11,18 @@ header {
     margin-top: 100px;
 }
 
+p {
+    font-size: 20px;
+    margin: 65px;
+}
+
+.content_container {
+    width: 85%;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 15px;
+}
+
 .website_header {
     font-size: 50px;
 }
@@ -41,25 +53,29 @@ header {
 
 .sub_container {
     vertical-align: top;
-    width: 25%;
+    width: 40%;
     text-align: center;
+    display: inline-block;
 }
 
 .sub_ul {
     display: inline-block;
-    background-color: rgb(37, 37, 37);
     text-align: center;
     border-radius: 30px;
+    width: 80%;
 }
 
 .sub_li {
     display: inline-block;
-    padding-left: 10px;
-    padding-right: 10px;
+    text-align: center;
+    width: auto;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .sub_button {
     color: yellowgreen;
+    display: inline-block;
     border-radius: 15px;
     border: none;
 }

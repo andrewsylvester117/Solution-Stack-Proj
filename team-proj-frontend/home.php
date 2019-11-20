@@ -8,8 +8,8 @@ include "menu.php";
 
 echo "
 <body>
-    <div>
-        <h1>$title</h1><br />
+<h1>$title</h1><br />
+    <div class=\"content_container\">
         <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida turpis a nunc pulvinar vehicula. Mauris tempor lectus ac eros ornare eleifend. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus faucibus pretium rutrum. Proin vehicula non eros vitae vulputate. Morbi venenatis ultricies enim. Proin suscipit turpis turpis, eu viverra ex ultrices vel. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis ornare sem elit, mollis semper tellus condimentum quis. In lobortis, felis eget feugiat viverra, libero ante rhoncus nisl, quis luctus ipsum mi sit amet ligula. Nam vel pretium nulla. Integer id arcu ex.
 

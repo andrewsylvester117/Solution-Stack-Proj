@@ -1,11 +1,11 @@
 <?php
-$title= "Mission";
+$title= "Locations";
 $website= "Website";
 include "head.php";
 include "header.php";
 include "menu.php";
 echo "<body>";
-include "sub_about_nav.php";
+include "sub_nav_contact.php";
 ?>
 
 
