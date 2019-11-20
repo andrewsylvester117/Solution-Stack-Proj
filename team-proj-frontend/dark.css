@@ -1,0 +1,179 @@
+body {
+    background-color: #012326;
+    color: #015A80;
+    font-family: Lucida Console, Lucida Sans Typewriter, monaco, Bitstream Vera Sans Mono, monospace;
+    text-align: center;
+}
+
+header {
+    border-color: #015A80;
+    position: relative;
+    margin-top: 100px;
+}
+
+p {
+    font-size: 20px;
+    margin: 65px;
+}
+
+.content_container {
+    width: 85%;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.content_input {
+    background-color: rgb(37, 37, 37);
+    padding: 25px;
+    width: 45%;
+    display: inline-block;
+}
+
+.website_header {
+    font-size: 50px;
+}
+
+.theme_container {
+    vertical-align: top;
+    width: 25%;
+    margin-left: 5%;
+}
+
+.theme_ul {
+    background-color: rgb(37, 37, 37);
+    text-align: center;
+    border-radius: 30px;
+}
+
+.theme_li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.theme_button {
+    color: #015A80;
+    border-radius: 15px;
+    border: none;
+}
+
+.sub_container {
+    vertical-align: top;
+    width: 40%;
+    text-align: center;
+    display: inline-block
+}
+
+.sub_ul {
+    display: inline-block;
+    text-align: center;
+    border-radius: 30px;
+    width: 80%;
+}
+
+.sub_li {
+    display: inline-block;
+    text-align: center;
+    width: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.sub_button {
+    color: #015A80;
+    display: inline-block;
+    border-radius: 15px;
+    border: none;
+}
+
+.loginbox_container {
+    padding: 10px;
+    width: 45%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.loginbox {
+    border: 5px solid #015A80;
+    border-radius: 10px;
+    width: 550px;
+    display: inline-block;
+    color: #015A80;
+}
+
+.login_button {
+    margin: 20px;
+    background-color: #012326;
+    border: none;
+    cursor: pointer;
+}
+
+.login_h2 {
+    color: #015A80;
+}
+
+.logoutlink {
+    display: block;
+    color: #015A80;
+    text-align: right;
+}
+
+.main_nav_container {}
+
+.main_nav {
+    padding: 10px;
+    text-align: center;
+}
+
+.main_nav_ul {
+    text-align: center;
+    background-color: rgb(37, 37, 37);
+    border-radius: 20px;
+    width: 75%;
+    display: inline-block;
+}
+
+.main_nav_li {
+    display: inline-block;
+    width: 25%;
+    border-radius: 10px;
+}
+
+.main_nav_li:hover {
+    background-color: #1d1d1d;
+    opacity: 1;
+}
+
+.main_nav_a {
+    background-color: white;
+    color: #015A80;
+}
+
+footer {
+    bottom: 0;
+    width: 95%;
+    height: 2.5rem;
+    text-align: left;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}

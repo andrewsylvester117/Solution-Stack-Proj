@@ -1,18 +1,17 @@
 <?php
-$title= "About";
+$title= "Mission";
 $website= "Website";
 include "head.php";
 include "header.php";
 include "menu.php";
+echo "<body>";
 include "sub_about_nav.php";
 ?>
 
 
-<?php
-echo "
-<body>
-    <div>
-        <h1>$title</h1><br />
+<?php echo "
+<h1>$title</h1><br />
+    <div class=\"content_container\">
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet iaculis nulla, non tristique urna suscipit et. Quisque rutrum ut tellus sed molestie. Fusce semper, ipsum hendrerit placerat faucibus, erat purus tincidunt purus, nec fermentum metus justo quis lacus. Donec suscipit tortor nibh, sit amet ultricies lectus feugiat in. Nam tempor scelerisque egestas. Morbi nec libero augue. Cras massa dui, scelerisque eu urna at, lobortis ullamcorper sapien. Aenean molestie finibus vehicula. Etiam in rhoncus mauris, et pharetra sem.
 

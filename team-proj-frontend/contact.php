@@ -1,13 +1,13 @@
 <?php
 $title= "Contact";
-$website= "Website";
 include "head.php";
 include "header.php";
 include "menu.php";
 include "sub_nav_contact.php";
 
-echo "<div>
-        <h1>$title</h1><br />
+echo "
+<h1>$title</h1><br />
+<div class=\"content_container\">
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut sollicitudin lacus, sed consectetur neque. Phasellus dolor eros, tincidunt eget ipsum sed, rhoncus tempus lacus. In accumsan eros mauris, eget accumsan justo sagittis sed. Fusce ac volutpat lorem. Integer dictum laoreet ipsum, in porttitor orci cursus non. Sed quam turpis, feugiat nec eros vitae, pretium iaculis nisi. Aliquam et ligula et enim vehicula vehicula eget imperdiet eros. Donec bibendum ante et lectus hendrerit, ac facilisis augue eleifend. Maecenas quam nulla, efficitur ut maximus a, lacinia a libero.
 
