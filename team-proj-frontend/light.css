@@ -38,7 +38,7 @@ p {
 
 .theme_container {
     vertical-align: top;
-    width: 25%;
+    width: 35%;
     margin-left: 5%;
 }
 
@@ -102,13 +102,12 @@ p {
     border-radius: 10px;
     width: 550px;
     display: inline-block;
-    color: yellowgreen;
+    color: black;
 }
 
 .login_button {
+    background-color: white;
     margin: 20px;
-    background-color: #373636;
-    ;
     border: none;
     cursor: pointer;
 }
