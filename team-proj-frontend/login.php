@@ -1,5 +1,5 @@
 <?php
-if(isset($_SESSION)){
+if (isset($_SESSION)) {
     session_destroy();
 }
 $title = "Login";
@@ -8,7 +8,7 @@ include "head.php";
 ?>
 
 <body>
-    <div class=\"loginbox_container\">
+    <div class=loginbox_container>
         <div class="loginbox">
             <h1>Login</h1>
             <form method="post">
@@ -16,26 +16,28 @@ include "head.php";
                     <label>
                         <h2>Username:</h2>
                     </label>
-                    <input type="text" placeholder="Enter Username" name="username" id="username" required>
+                    <input type="text" placeholder="Enter Username" name="username" id="username">
 
                     <label>
                         <h2>Password:</h2>
                     </label>
-                    <input type="password" placeholder="Enter Password" name="password" id="password" required>
+                    <input type="password" placeholder="Enter Password" name="password" id="password">
 
-                    <button name="submit" type="submit">
-                        <h3>Login<h3>
-                    </button>
+                    <button class="login_button" name="submit_login" type="submit">
+                    <h2 class="login_h2">Login</h2>
+
+                    <button class="login_button" name="submit_guest" type="submit">
+                        <h2 class="login_h2">Continue as Guest<h2>
+                    
                 </div>
             </form>
-
         </div>
     </div>
 
     <?php
 
-    // If the submit button has been clicked
-    if (isset($_POST['submit'])) {
+    // If the submit-login button has been clicked
+    if (isset($_POST['submit_login'])) {
 
         // Get the username and password from the form
         $username = $_POST['username'];
@@ -69,6 +71,13 @@ include "head.php";
         } else {
             echo "<script type='text/javascript'>alert('User Name Or Password Invalid!')</script>";
         }
+    }
+
+    if (isset($_POST['submit_guest'])) {
+        session_start();
+        $_SESSION['login_user'] = "GUEST";
+
+        echo "<script language='javascript' type='text/javascript'> location.href='home.php' </script>";
     }
     ?>
 </body>

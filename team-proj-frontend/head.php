@@ -7,5 +7,5 @@
     <title><?php echo $website." - ".$title; ?></title>
     <link rel = "stylesheet"
         type = "text/css"
-        href = "index.css" />
+        href = "<?php include "getcss.php";?>" />
 </head>

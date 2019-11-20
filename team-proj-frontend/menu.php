@@ -1,13 +1,13 @@
 <div class="main_nav_container">
    <nav class="main_nav">
-      <ul>
+      <ul class = "main_nav_ul">
          <?php
             $menu_items = ["Home"=>"home", 
                   "About"=>"about",
                   "Contact"=>"contact"];
 
                foreach($menu_items as $key => $value){
-                  echo "<li><a href=".$menu_items[$key]."><h2>".$key."</h2></a></li>";
+                  echo "<li class = \"main_nav_li\"><a class=\"main_nav_a\" href=".$menu_items[$key]."><h2>".$key."</h2></a></li>";
                } 
             ?>
          </ul>
