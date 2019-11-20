@@ -21,6 +21,14 @@ p {
     display: inline-block;
     margin: 20px;
     border-radius: 15px;
+    text-align: center;
+}
+
+.content_input {
+    background-color: rgb(37, 37, 37);
+    padding: 25px;
+    width: 45%;
+    display: inline-block;
 }
 
 .website_header {

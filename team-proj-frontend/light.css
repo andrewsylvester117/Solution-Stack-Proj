@@ -17,11 +17,19 @@ p {
 }
 
 .content_container {
-    background-color: #0099ff;
+    background-color: steelblue;
     width: 85%;
     display: inline-block;
     margin: 20px;
     border-radius: 15px;
+    text-align: center;
+}
+
+.content_input {
+    background-color: steelblue;
+    padding: 25px;
+    width: 45%;
+    display: inline-block;
 }
 
 .website_header {
