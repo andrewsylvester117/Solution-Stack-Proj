@@ -1,6 +1,5 @@
 <?php
 $title= "Contact";
-$website= "Website";
 include "head.php";
 include "header.php";
 include "menu.php";

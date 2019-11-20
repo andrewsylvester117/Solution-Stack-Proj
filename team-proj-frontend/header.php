@@ -10,6 +10,8 @@
         else{
             include "logout.php";
         }
-        echo "<h1 class=\"website_header\">" . $website . "</h1>";
+        //$result = file_get_contents( "http://pi-asylvester/team-proj-backend/get_site_name.php");
+
+        echo "<h1 class=\"website_header\">" . $_SESSION['sitename'] . "</h1>";
     ?>
 </header>

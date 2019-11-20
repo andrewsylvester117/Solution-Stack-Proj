@@ -17,6 +17,5 @@
 
     // Send the request
     $result = file_get_contents($url, false, $context);
-
     echo "<script language='javascript' type='text/javascript'> location.href='home.php' </script>";
 ?>

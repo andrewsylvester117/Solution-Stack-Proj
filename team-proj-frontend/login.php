@@ -66,7 +66,7 @@ include "head.php";
             // Start the session for the user.
             session_start();
             $_SESSION['login_user'] = $username;
-
+            include "get_site_name.php";
             echo "<script language='javascript' type='text/javascript'> location.href='home.php' </script>";
         } else {
             echo "<script type='text/javascript'>alert('User Name Or Password Invalid!')</script>";
@@ -76,7 +76,7 @@ include "head.php";
     if (isset($_POST['submit_guest'])) {
         session_start();
         $_SESSION['login_user'] = "GUEST";
-
+        include "get_site_name.php";
         echo "<script language='javascript' type='text/javascript'> location.href='home.php' </script>";
     }
     ?>
