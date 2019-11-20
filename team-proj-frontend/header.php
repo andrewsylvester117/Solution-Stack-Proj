@@ -10,6 +10,6 @@
         else{
             include "logout.php";
         }
-        echo "<h1>" . $website . "</h1>";
+        echo "<h1 class=\"website_header\">" . $website . "</h1>";
     ?>
 </header>

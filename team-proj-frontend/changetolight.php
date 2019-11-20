@@ -18,7 +18,5 @@
     // Send the request
     $result = file_get_contents($url, false, $context);
 
-    if ($result == 'TRUE') {
-        session_start();
-        $_SESSION['login_user'] = $username;
+    echo "<script language='javascript' type='text/javascript'> location.href='home.php' </script>";
 ?>

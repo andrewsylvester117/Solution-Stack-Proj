@@ -1,14 +1,18 @@
 body {
-    background-color: pink;
-    color: greenyellow;
+    background-color: #012326;
+    color: #015A80;
     font-family: Lucida Console, Lucida Sans Typewriter, monaco, Bitstream Vera Sans Mono, monospace;
     text-align: center;
 }
 
 header {
-    border-color: greenyellow;
+    border-color: #015A80;
     position: relative;
     margin-top: 100px;
+}
+
+.website_header {
+    font-size: 50px;
 }
 
 .theme_container {
@@ -30,7 +34,7 @@ header {
 }
 
 .theme_button {
-    color: yellowgreen;
+    color: #015A80;
     border-radius: 15px;
     border: none;
 }
@@ -55,7 +59,7 @@ header {
 }
 
 .sub_button {
-    color: yellowgreen;
+    color: #015A80;
     border-radius: 15px;
     border: none;
 }
@@ -69,27 +73,27 @@ header {
 }
 
 .loginbox {
-    border: 5px solid yellowgreen;
+    border: 5px solid #015A80;
     border-radius: 10px;
     width: 550px;
     display: inline-block;
-    color: yellowgreen;
+    color: #015A80;
 }
 
 .login_button {
     margin: 20px;
-    background-color: black;
+    background-color: #012326;
     border: none;
     cursor: pointer;
 }
 
 .login_h2 {
-    color: yellowgreen;
+    color: #015A80;
 }
 
 .logoutlink {
     display: block;
-    color: yellowgreen;
+    color: #015A80;
     text-align: right;
 }
 
@@ -121,7 +125,7 @@ header {
 
 .main_nav_a {
     background-color: white;
-    color: yellowgreen;
+    color: #015A80;
 }
 
 footer {
